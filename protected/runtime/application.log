@@ -1,0 +1,1455 @@
+2012/11/27 06:53:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "greeting/hello".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('greeting/hello')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=greeting/hello
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/index
+---
+2012/11/27 06:53:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "greeting/hello".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('greeting/hello')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=greeting/hello
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=greeting/hello
+---
+2012/11/27 15:42:23 [error] [php] Use of undefined constant Register - assumed 'Register' (C:\xampp\htdocs\Reward_Club\protected\views\site\login.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(98): SiteController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\views\site\login.php (41)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/11/27 15:42:23 [error] [php] Use of undefined constant Register - assumed 'Register' (C:\xampp\htdocs\Reward_Club\protected\views\site\login.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(98): SiteController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\views\site\login.php (41)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/11/27 15:42:24 [error] [php] Use of undefined constant Register - assumed 'Register' (C:\xampp\htdocs\Reward_Club\protected\views\site\login.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(98): SiteController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\views\site\login.php (41)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/11/27 15:42:24 [error] [php] Use of undefined constant Register - assumed 'Register' (C:\xampp\htdocs\Reward_Club\protected\views\site\login.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(98): SiteController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\views\site\login.php (41)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/11/27 15:42:24 [error] [php] Use of undefined constant Register - assumed 'Register' (C:\xampp\htdocs\Reward_Club\protected\views\site\login.php:41)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(98): SiteController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\views\site\login.php (41)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (98)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/11/28 07:50:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('shop')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=shop
+---
+2012/11/28 07:51:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop/".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('shop/')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=shop/
+---
+2012/11/28 07:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop/".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('shop/')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=shop/
+---
+2012/11/28 07:51:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('shop')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=shop
+---
+2012/11/28 07:52:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "TblShop".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('TblShop')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=TblShop
+---
+2012/11/28 07:57:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Shop".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Shop')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Shop
+---
+2012/11/28 08:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "shop".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('shop')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=shop
+---
+2012/11/28 08:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "promotion".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('promotion')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('promotion')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/promo...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/promotion
+---
+2012/11/28 08:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "promotion".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('promotion')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('promotion')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/promo...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/promotion
+---
+2012/12/01 06:58:08 [error] [exception.CException] exception 'CException' with message 'Property "Promotion.PromotionID" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('PromotionID')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('PromotionID')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Promotion), 'PromotionID')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Promotion), 'PromotionID', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Promotion), 'PromotionID', Array)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(20): CActiveForm->textField(Object(Promotion), 'PromotionID')
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#23 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#25 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#26 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/01 06:58:20 [error] [exception.CException] exception 'CException' with message 'Property "Promotion.PromotionID" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('PromotionID')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('PromotionID')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Promotion), 'PromotionID')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Promotion), 'PromotionID', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Promotion), 'PromotionID', Array)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(20): CActiveForm->textField(Object(Promotion), 'PromotionID')
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#23 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#25 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#26 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/01 06:58:26 [error] [exception.CException] exception 'CException' with message 'Property "Promotion.PromotionID" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('PromotionID')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('PromotionID')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Promotion), 'PromotionID')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Promotion), 'PromotionID', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Promotion), 'PromotionID', Array)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(20): CActiveForm->textField(Object(Promotion), 'PromotionID')
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#14 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#23 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#25 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#26 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+---
+2012/12/01 08:56:52 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "Date".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CComponent->__call('Date', Array)
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CActiveForm->Date(Object(Promotion), 'startDate')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+---
+2012/12/01 09:10:57 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "Date".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CComponent->__call('Date', Array)
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CActiveForm->Date(Object(Promotion), 'startDate')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+---
+2012/12/01 10:35:10 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "date_time_set".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CComponent->__call('date_time_set', Array)
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CActiveForm->date_time_set()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+---
+2012/12/01 14:31:11 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "textDate".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CComponent->__call('textDate', Array)
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CActiveForm->textDate(Object(Promotion), 'startDate')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/01 14:31:35 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "textDate".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CComponent->__call('textDate', Array)
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(45): CActiveForm->textDate(Object(Promotion), 'startDate')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/02 09:29:00 [error] [php] Undefined variable: model (C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php:28)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(128): PromotionController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionIndex()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=Promotion/index&view=about
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php (28)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (128)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/12/02 09:33:47 [error] [php] Undefined variable: model (C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(128): PromotionController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionIndex()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=Promotion/index&view=about
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php (42)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (128)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/12/02 09:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_search".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php:484
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(271): CController->missingAction('_search')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('_search')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/_sear...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/_search
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=Promotion/index&view=about
+---
+2012/12/02 09:38:01 [error] [php] Undefined variable: model (C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php:63)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(128): PromotionController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionIndex()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=Promotion/index&view=about
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php (63)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (128)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/12/02 09:38:55 [error] [php] Undefined variable: model (C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php:42)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(128): PromotionController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionIndex()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=Promotion/index&view=about
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php (42)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (128)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/12/02 09:39:13 [error] [php] Undefined variable: model (C:\xampp\htdocs\Reward_Club\protected\views\promotion\_search.php:15)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php(43): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): PromotionController->renderInternal()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(128): PromotionController->render()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionIndex()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=Promotion/index&view=about
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\_search.php (15)
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php (43)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (128)
+2012/12/02 09:40:01 [error] [php] Undefined variable: model (C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php:43)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(128): PromotionController->render()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionIndex()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=Promotion/index&view=about
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php (43)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (128)
+in C:\xampp\htdocs\Reward_Club\index.php (13)
+2012/12/03 08:03:18 [error] [php] Use of undefined constant oooo - assumed 'oooo' (C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php:19)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): PromotionController->renderInternal()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): PromotionController->render()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php (19)
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php (18)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (79)
+2012/12/03 08:03:53 [error] [php] Use of undefined constant iiiii - assumed 'iiiii' (C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php:22)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): PromotionController->renderPartial()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): PromotionController->renderInternal()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): PromotionController->render()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php (22)
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php (18)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (79)
+2012/12/03 08:07:52 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "textFile".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(98): CComponent->__call('textFile', Array)
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(98): CActiveForm->textFile(Object(Promotion), 'proPic', Array)
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/03 08:08:01 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "File".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(98): CComponent->__call('File', Array)
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(98): CActiveForm->File(Object(Promotion), 'proPic', Array)
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/03 09:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Register/regis".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Register/regis')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Register/regis
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/04 06:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Branch/index".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Branch/index')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Branch/index
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/04 06:11:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Branch/index".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Branch/index')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Branch/index&view=about
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=Promotion/index&view=about
+---
+2012/12/04 06:11:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Branch/index".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Branch/index')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Branch/index&view=about
+---
+2012/12/04 06:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Branch/index".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Branch/index')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Branch/index
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/04 06:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Branch/index".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Branch/index')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Branch/index
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/04 06:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Branch/index".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Branch/index')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Branch/index
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/04 06:12:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Branch/index".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('Branch/index')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Reward_Club/index.php?r=Branch/index
+---
+2012/12/04 07:01:58 [error] [php] Use of undefined constant Red - assumed 'Red' (C:\xampp\htdocs\Reward_Club\protected\views\shop\_form.php:82)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): ShopController->renderFile()
+#1 C:\xampp\htdocs\Reward_Club\protected\views\shop\create.php(18): ShopController->renderPartial()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): ShopController->renderInternal()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): ShopController->renderFile()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): ShopController->renderPartial()
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\ShopController.php(79): ShopController->render()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ShopController->actionCreate()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): ShopController->runAction()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): ShopController->filterAccessControl()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): ShopController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): ShopController->run()
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=shop/create
+in C:\xampp\htdocs\Reward_Club\protected\views\shop\_form.php (82)
+in C:\xampp\htdocs\Reward_Club\protected\views\shop\create.php (18)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\ShopController.php (79)
+2012/12/04 07:02:23 [error] [php] Use of undefined constant Red - assumed 'Red' (C:\xampp\htdocs\Reward_Club\protected\views\shop\_form.php:82)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): ShopController->renderFile()
+#1 C:\xampp\htdocs\Reward_Club\protected\views\shop\create.php(18): ShopController->renderPartial()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): ShopController->renderInternal()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): ShopController->renderFile()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): ShopController->renderPartial()
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\ShopController.php(79): ShopController->render()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): ShopController->actionCreate()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): ShopController->runAction()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): ShopController->filterAccessControl()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): ShopController->runActionWithFilters()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): ShopController->run()
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=shop/create
+in C:\xampp\htdocs\Reward_Club\protected\views\shop\_form.php (82)
+in C:\xampp\htdocs\Reward_Club\protected\views\shop\create.php (18)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\ShopController.php (79)
+2012/12/07 08:23:12 [error] [exception.CException] exception 'CException' with message 'Property "Promotion.StartDate" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('StartDate')
+#1 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(117): CActiveRecord->__get('StartDate')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#10 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=Promotion/index&view=about
+---
+2012/12/07 08:29:57 [error] [php] Undefined variable: model (C:\xampp\htdocs\Reward_Club\protected\views\promotion\_view.php:39)
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CListView.php(260): PromotionController->renderFile()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(161): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\zii\widgets\CBaseListView.php(129): CListView->renderContent()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(174): CListView->run()
+#6 C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php(22): PromotionController->widget()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): PromotionController->renderInternal()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): PromotionController->renderFile()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): PromotionController->renderPartial()
+#11 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(128): PromotionController->render()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionIndex()
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): PromotionController->runAction()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): PromotionController->filterAccessControl()
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): PromotionController->runActionWithFilters()
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): PromotionController->run()
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#23 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=Promotion/index&view=about
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\_view.php (39)
+in C:\xampp\htdocs\Reward_Club\protected\views\promotion\index.php (22)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php (128)
+2012/12/08 10:06:31 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-1.1.12.b600af\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): spl_autoload_call()
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php (39)
+in C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (94)
+2012/12/08 10:18:00 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-1.1.12.b600af\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): spl_autoload_call()
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php (39)
+in C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (94)
+2012/12/08 10:18:06 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-1.1.12.b600af\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): spl_autoload_call()
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php (39)
+in C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (94)
+2012/12/08 10:18:18 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-1.1.12.b600af\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): spl_autoload_call()
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php (39)
+in C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (94)
+2012/12/08 10:21:04 [error] [php] include(tbl_shop.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-1.1.12.b600af\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): spl_autoload_call()
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php (39)
+in C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (94)
+2012/12/09 04:53:36 [error] [exception.CException] exception 'CException' with message 'Property "Promotion.openDate" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('openDate')
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('openDate')
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Promotion), 'openDate')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Promotion), 'openDate', Array)
+#4 C:\xampp\htdocs\Reward_Club\protected\views\promotion\_form.php(47): CHtml::activeTextField(Object(Promotion), 'openDate', Array)
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#8 C:\xampp\htdocs\Reward_Club\protected\views\promotion\create.php(18): CController->renderPartial('_form', Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(783): CController->renderPartial('create', Array, true)
+#13 C:\xampp\htdocs\Reward_Club\protected\controllers\PromotionController.php(79): CController->render('create', Array)
+#14 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): PromotionController->actionCreate()
+#15 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#17 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#18 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(292): CFilterChain->run()
+#22 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#23 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('create')
+#24 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('promotion/creat...')
+#25 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#26 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#27 {main}
+REQUEST_URI=/Reward_Club/index.php?r=promotion/create
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:06:23 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.shopEmail" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CComponent->__get('shopEmail')
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:07:18 [error] [exception.CDbException] exception 'CDbException' with message 'Table "tbl_shop" does not have a column named "id".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\schema\CDbCommandBuilder.php:570
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1458): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:08:53 [error] [exception.CDbException] exception 'CDbException' with message 'Table "tbl_shop" does not have a column named "username".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\schema\CDbCommandBuilder.php:570
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1458): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:10:23 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:11:40 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.shopPwd" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CComponent->__get('shopPwd')
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:12:06 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.shopID" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CComponent->__get('shopID')
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:13:01 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.shopID" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CComponent->__get('shopID')
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:13:08 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.shopID" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CComponent->__get('shopID')
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:14:49 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.shopID" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CComponent->__get('shopID')
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:14:59 [error] [exception.CException] exception 'CException' with message 'UserIdentity::authenticate() must be implemented.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\auth\CUserIdentity.php:58
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): CUserIdentity->authenticate()
+#1 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#4 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:15:48 [error] [php] include(User.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii-1.1.12.b600af\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): spl_autoload_call()
+#1 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute()
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CInlineValidator->validate()
+#5 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): LoginForm->validate()
+#6 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): SiteController->runAction()
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): SiteController->run()
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Reward_Club\index.php(13): CWebApplication->run()
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+in C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php (39)
+in C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php (52)
+in C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php (94)
+2012/12/09 06:16:33 [error] [exception.CDbException] exception 'CDbException' with message 'Table "tbl_shop" does not have a column named "username".' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\schema\CDbCommandBuilder.php:570
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(1458): CDbCommandBuilder->createColumnCriteria(Object(CMysqlTableSchema), Array, '', Array, '`t`.')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(39): CActiveRecord->findByAttributes(Array)
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:17:23 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:18:15 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:19:34 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:20:14 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:20:40 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:22:57 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:38:35 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:40:06 [error] [exception.CException] exception 'CException' with message 'Property "Shop.password" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(42): CActiveRecord->__get('password')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:56:17 [error] [exception.CException] exception 'CException' with message 'Property "Shop.id" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('id')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(46): CActiveRecord->__get('id')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
+2012/12/09 06:57:08 [error] [exception.CException] exception 'CException' with message 'Property "Shop.title" is not defined.' in C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\xampp\htdocs\yii-1.1.12.b600af\framework\db\ar\CActiveRecord.php(144): CComponent->__get('title')
+#1 C:\xampp\htdocs\Reward_Club\protected\components\UserIdentity.php(47): CActiveRecord->__get('title')
+#2 C:\xampp\htdocs\Reward_Club\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#3 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#4 C:\xampp\htdocs\yii-1.1.12.b600af\framework\validators\CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#5 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#6 C:\xampp\htdocs\Reward_Club\protected\controllers\SiteController.php(94): CModel->validate()
+#7 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\actions\CInlineAction.php(50): SiteController->actionLogin()
+#8 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(283): CController->run('login')
+#12 C:\xampp\htdocs\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('site/login')
+#13 C:\xampp\htdocs\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\Reward_Club\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/Reward_Club/index.php?r=site/login
+HTTP_REFERER=http://localhost/Reward_Club/index.php?r=site/login
+---
